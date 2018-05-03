@@ -14,13 +14,11 @@ protocol NotePresenterDelegate: class {
 
 final class NotePresenter {
     private let repository: NoteRepository
-    private weak var delegate: NotePresenterDelegate?
+    weak var delegate: NotePresenterDelegate!
 
-    init(repository: NoteRepository, delegate: NotePresenterDelegate) {
+    init(repository: NoteRepository) {
         self.repository = repository
-        // FIXME: set self to repository's delegate
-
-        self.delegate = delegate
+        // FIXME: set self to repository's delegate here
     }
 
     func getNotes() {

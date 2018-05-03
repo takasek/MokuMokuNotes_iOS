@@ -21,9 +21,9 @@ final class NoteListViewController: UIViewController {
         super.viewDidLoad()
 
         presenter = NotePresenter(
-            repository: NoteRepository(),
-            delegate: self
+            repository: NoteRepository()
         )
+        presenter.delegate = self
 
         presenter.getNotes()
     }
