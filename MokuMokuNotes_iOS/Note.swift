@@ -20,4 +20,11 @@ struct Note: Equatable {
         self.completed = completed
         self.completedAt = completedAt
     }
+
+    static func ==(lhs: Note, rhs: Note) -> Bool {
+        return lhs.text == rhs.text
+            && lhs.createdAt == rhs.createdAt
+            && lhs.completed == rhs.completed
+            && lhs.completedAt == rhs.completedAt
+    }
 }
