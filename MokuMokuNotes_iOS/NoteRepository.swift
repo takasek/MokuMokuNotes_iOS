@@ -15,11 +15,11 @@ protocol NoteRepositoryDelegate: class {
 final class NoteRepository {
     private let dummyDataSource = DummyDataSource()
 
-    weak var delegate: NoteRepositoryDelegate?
+    weak var delegate: NoteRepositoryDelegate!
 
     func getNotes() {
         let notes = dummyDataSource.getNotes()
-        delegate?.noteRepositoryDidReceiveNotes(notes)
+        delegate.noteRepositoryDidReceiveNotes(notes)
     }
 
     func save(note: Note) {
