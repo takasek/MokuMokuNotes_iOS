@@ -33,5 +33,6 @@ final class NotePresenter {
     }
 }
 
-//extension NotePresenter: NoteRepositoryDelegate {
-//}
+extension NotePresenter: NoteRepositoryDelegate {
+}
+
