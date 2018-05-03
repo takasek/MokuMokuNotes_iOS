@@ -22,7 +22,7 @@
                                 <rect key="frame" x="200" y="0.0" width="175" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NoteCell" textLabel="xjg-bz-zop" detailTextLabel="rfk-lU-fcW" style="IBUITableViewCellStyleSubtitle" id="Kzn-64-LSE" customClass="NoteCell" customModule="MokuMokuNotes_iOS" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="xjg-bz-zop" detailTextLabel="rfk-lU-fcW" style="IBUITableViewCellStyleSubtitle" id="Kzn-64-LSE" customClass="NoteCell" customModule="MokuMokuNotes_iOS" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="175" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Kzn-64-LSE" id="V5e-vk-0o9">
