@@ -33,6 +33,9 @@ final class NotePresenter {
     }
 }
 
-extension NotePresenter: NoteRepositoryDelegate {
-}
+// FIXME: extend NotePresenter as NoteRepositoryDelegate
+// see also: Swiftのextensionは3パターンだけ〜そして条件付き適合へ･･･〜 - Qiita
+// https://qiita.com/crea/items/4297bf60d222d661498f
+//extension NotePresenter: NoteRepositoryDelegate {
+//}
 
