@@ -3,7 +3,7 @@
 1. install Xcode (https://itunes.apple.com/jp/app/xcode/id497799835?mt=12)
 1. Swift basics (http://nilhcem.com/swift-is-like-kotlin/)
 1. Delegate pattern ([MVPパターンによる設計アプローチ「あなたのアプリ報連相できてますか」](https://www.slideshare.net/yudaiyokoyama3/ss-41283302))
-1. Quests
+1. Quests (Resolve the errors occured step by step)
     1. Get notes from Repository and show them on ViewController!
     1. Add new notes using `presenter.save(notes: [Note])`
 
