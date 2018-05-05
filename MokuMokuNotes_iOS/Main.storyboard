@@ -84,6 +84,33 @@ broken layout→</string>
             </objects>
             <point key="canvasLocation" x="-591.20000000000005" y="108.39580209895054"/>
         </scene>
+        <!--Note Detail View Controller-->
+        <scene sceneID="On7-Zw-0bE">
+            <objects>
+                <viewController id="aH4-0K-gBf" customClass="NoteDetailViewController" customModule="MokuMokuNotes_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pVx-x7-QOf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FIXME: design as you like!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EPk-nX-eaV">
+                                <rect key="frame" x="88.5" y="323" width="198" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="EPk-nX-eaV" firstAttribute="centerX" secondItem="pVx-x7-QOf" secondAttribute="centerX" id="Sgk-vL-klX"/>
+                            <constraint firstItem="EPk-nX-eaV" firstAttribute="centerY" secondItem="pVx-x7-QOf" secondAttribute="centerY" id="ck0-us-qSz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="VbU-BV-ijs"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zqh-n9-6g5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="129" y="107"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="2DD-Uk-AuX">
             <objects>

@@ -14,7 +14,7 @@ struct Note: Equatable {
     let completed: Bool
     let completedAt: Date?
 
-    init(text: String, createdAt: Date, completed: Bool = false, completedAt: Date? = nil) {
+    init(text: String = "TODO: show detail when the cells tapped.", createdAt: Date, completed: Bool = false, completedAt: Date? = nil) {
         self.text = text
         self.createdAt = createdAt
         self.completed = completed

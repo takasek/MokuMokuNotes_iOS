@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B61122CD209DAEDA00554271 /* NoteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61122CC209DAEDA00554271 /* NoteDetailViewController.swift */; };
 		B61C25DE209ADC2F007865A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B61C25DD209ADC2F007865A8 /* Assets.xcassets */; };
 		B61C25E1209ADC2F007865A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B61C25DF209ADC2F007865A8 /* LaunchScreen.storyboard */; };
 		B61C25EF209AE03F007865A8 /* NoteListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C25E8209AE03F007865A8 /* NoteListViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B61122CC209DAEDA00554271 /* NoteDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailViewController.swift; sourceTree = "<group>"; };
 		B61C25D3209ADC2F007865A8 /* MokuMokuNotes_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MokuMokuNotes_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B61C25DD209ADC2F007865A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B61C25E0209ADC2F007865A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				B61C25E8209AE03F007865A8 /* NoteListViewController.swift */,
 				B61C25EC209AE03F007865A8 /* NotePresenter.swift */,
 				B61C25EA209AE03F007865A8 /* NoteRepository.swift */,
+				B61122CC209DAEDA00554271 /* NoteDetailViewController.swift */,
 				B61C25DD209ADC2F007865A8 /* Assets.xcassets */,
 				B61C25DF209ADC2F007865A8 /* LaunchScreen.storyboard */,
 				B61C25E2209ADC2F007865A8 /* Info.plist */,
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B61C25F5209AE03F007865A8 /* AppDelegate.swift in Sources */,
+				B61122CD209DAEDA00554271 /* NoteDetailViewController.swift in Sources */,
 				B61C25F3209AE03F007865A8 /* NotePresenter.swift in Sources */,
 				B61C25F1209AE03F007865A8 /* NoteRepository.swift in Sources */,
 				B61C25EF209AE03F007865A8 /* NoteListViewController.swift in Sources */,
