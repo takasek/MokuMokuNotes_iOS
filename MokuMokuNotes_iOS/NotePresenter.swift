@@ -25,8 +25,8 @@ final class NotePresenter {
         repository.getNotes()
     }
 
-    func saveNote(text: String) {
-        let note = Note(text: text, createdAt: Date())
+    func addNewNote() {
+        let note = Note(createdAt: Date())
         repository.save(note: note)
     }
 }

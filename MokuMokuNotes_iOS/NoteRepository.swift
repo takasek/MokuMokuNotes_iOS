@@ -13,12 +13,12 @@ protocol NoteRepositoryDelegate: class {
 }
 
 final class NoteRepository {
-    private let dummyDataSource = DummyDataSource()
+    private let dataSource = DummyDataSource()
 
     weak var delegate: NoteRepositoryDelegate!
 
     func getNotes() {
-        let notes = dummyDataSource.getNotes()
+        let notes = dataSource.getNotes()
 
         // FIXME: set `delegate: NoteRepositoryDelegate` in advance
         // hint: press `Command+Shift+F` to find texts in the project.
@@ -27,9 +27,14 @@ final class NoteRepository {
 
     func save(note: Note) {
         fatalError("not implemented")
+        // TODO:
+        // 1. Make `dataSource.notes` variable.
+        // 2. Add a new note to dataSource.
+        // 3. tell delegate that the repository receives new notes.
     }
 
     private final class DummyDataSource {
+        //private var notes: [Note] = [...]
         func getNotes() -> [Note] {
             return [
                 Note(text: "Skype family for Christmas", createdAt: Date(timeIntervalSince1970: 1514203200)),

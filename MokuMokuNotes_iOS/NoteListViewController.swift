@@ -30,7 +30,8 @@ final class NoteListViewController: UIViewController {
     }
 
     @IBAction func addButtonDidTap() {
-        fatalError("not implemented")
+        // hint: NotePresenter have a method `addNewNote()`
+        presenter.saveNote(text: "てすと")
     }
 }
 
