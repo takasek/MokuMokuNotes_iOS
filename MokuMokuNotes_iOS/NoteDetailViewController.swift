@@ -19,6 +19,8 @@ final class NoteDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // FIXME: Final quest! solve the runtime error by yourself!
+        // hint: this code has two problems. One is because of code, another is because of storyboard.
         textlabel.text = note.text
         createdAtLabel.text = note.createdAt.description
         completedLabel.text = note.completed ? "✅" : "📝"
