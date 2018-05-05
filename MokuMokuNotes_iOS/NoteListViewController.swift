@@ -30,8 +30,8 @@ final class NoteListViewController: UIViewController {
     }
 
     @IBAction func addButtonDidTap() {
+        fatalError()
         // hint: NotePresenter have a method `addNewNote()`
-        presenter.saveNote(text: "てすと")
     }
 }
 
