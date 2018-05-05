@@ -32,8 +32,9 @@ final class NotePresenter {
 }
 
 // FIXME: extend NotePresenter as NoteRepositoryDelegate
-// see also: Swiftのextensionは3パターンだけ〜そして条件付き適合へ･･･〜 - Qiita
-// https://qiita.com/crea/items/4297bf60d222d661498f
+// hint: see also: Swiftのextensionは3パターンだけ〜そして条件付き適合へ･･･〜 - Qiita
+//       https://qiita.com/crea/items/4297bf60d222d661498f
+// hint: some build error can be solved automatically by IDE. Try clicking a red circle.
 //extension NotePresenter: NoteRepositoryDelegate {
 //    // FIXME: tell `self.delegate: NotePresenterDelegate` that the presenter receives notes
 //}
