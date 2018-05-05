@@ -20,9 +20,10 @@ final class NoteListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        presenter = NotePresenter(
-            repository: NoteRepository()
-        )
+        presenter = NotePresenter(repository: NoteRepository())
+
+        // FIXME: remove a line below after reading the message carefully.
+        fatalError("hint: Why using `delegate`? learn MVP architecture! -> https://www.slideshare.net/yudaiyokoyama3/ss-41283302")
         presenter.delegate = self
 
         presenter.getNotes()
@@ -52,6 +53,7 @@ extension NoteListViewController: NotePresenterDelegate {
     func notePresenterDidReceiveNotes(_ notes: [Note]) {
         items = notes
 
+        // hint: tableView is treated as ImplicitlyUnwrappedOptional
         tableView.reloadData()
     }
 }
