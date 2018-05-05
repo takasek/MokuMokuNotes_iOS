@@ -18,7 +18,7 @@ final class NotePresenter {
 
     init(repository: NoteRepository) {
         self.repository = repository
-        // FIXME: set self to repository's delegate here
+        // FIXME: set self to repository's `delegate: NoteRepositoryDelegate` here
     }
 
     func getNotes() {
@@ -35,5 +35,6 @@ final class NotePresenter {
 // see also: Swiftのextensionは3パターンだけ〜そして条件付き適合へ･･･〜 - Qiita
 // https://qiita.com/crea/items/4297bf60d222d661498f
 //extension NotePresenter: NoteRepositoryDelegate {
+//    // FIXME: tell `self.delegate: NotePresenterDelegate` that the presenter receives notes
 //}
 
