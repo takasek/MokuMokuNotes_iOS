@@ -50,6 +50,16 @@ extension NoteListViewController: UITableViewDataSource {
     }
 }
 
+extension NoteListViewController: UITableViewDelegate {
+    // FIXME: To invoke this method, you should connect `NoteListViewController` as `tableView`'s delegate.
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        // FIXME: set "NoteDetailViewController" to storyboard ID of NoteDetailViewController on Main.storyboard
+        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "NoteDetailViewController") as! NoteDetailViewController
+
+        navigationController?.pushViewController(vc, animated: true)
+    }
+}
+
 extension NoteListViewController: NotePresenterDelegate {
     func notePresenterDidReceiveNotes(_ notes: [Note]) {
         items = notes
