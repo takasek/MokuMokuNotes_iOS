@@ -1,5 +1,7 @@
 # MokuMokuNotes_iOS
 
+Androidエンジニア向けに作った、cloneしてXcodeで開いてコンパイルエラーを直していくだけでiOSアプリの作り方がわかるプロジェクトです。
+
 1. install Xcode (https://itunes.apple.com/jp/app/xcode/id497799835?mt=12)
 1. Swift basics (http://nilhcem.com/swift-is-like-kotlin/)
 1. Delegate pattern ([MVPパターンによる設計アプローチ「あなたのアプリ報連相できてますか」](https://www.slideshare.net/yudaiyokoyama3/ss-41283302))
