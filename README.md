@@ -1,6 +1,6 @@
 # MokuMokuNotes_iOS
 
-Androidエンジニア向けに作った、cloneしてXcodeで開いてコンパイルエラーを直していくだけでiOSアプリの作り方がわかるプロジェクトです。
+Androidエンジニア向けに作った、cloneしてXcodeで開いてコンパイルエラーやランタイムエラーを直していくだけでiOSアプリの作り方がわかるプロジェクトです。
 
 1. install Xcode (https://itunes.apple.com/jp/app/xcode/id497799835?mt=12)
 1. Swift basics (http://nilhcem.com/swift-is-like-kotlin/)
@@ -8,6 +8,7 @@ Androidエンジニア向けに作った、cloneしてXcodeで開いてコンパ
 1. Quests (Resolve the errors occured step by step)
     1. Get notes from Repository and show them on ViewController!
     1. Add new notes using `presenter.save(notes: [Note])`
+    1. Show detail of selected note
 
 ## Architecture
 
