@@ -5,10 +5,13 @@ Androidエンジニア向けに作った、cloneしてXcodeで開いてコンパ
 1. install Xcode (https://itunes.apple.com/jp/app/xcode/id497799835?mt=12)
 1. Swift basics (http://nilhcem.com/swift-is-like-kotlin/)
 1. Delegate pattern ([MVPパターンによる設計アプローチ「あなたのアプリ報連相できてますか」](https://www.slideshare.net/yudaiyokoyama3/ss-41283302))
-1. Quests (Resolve the errors occured step by step)
-    1. Get notes from Repository and show them on ViewController!
-    1. Add new notes using `presenter.save(notes: [Note])`
-    1. Show detail of selected note
+1. Quests (Resolve the errors occured step by step).  You may learn with process about...
+    - how to search sources in Xcode
+    - delegate pattern （MVP）
+    - designing with Storyboard
+    - how to connect `IBOutlet`
+    - registering and dequeueing to/from `UITableView`
+    - how to navigate to another `UIViewController`
 
 ## Architecture
 
