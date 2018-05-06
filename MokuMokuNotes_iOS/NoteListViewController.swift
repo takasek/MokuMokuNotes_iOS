@@ -24,6 +24,7 @@ final class NoteListViewController: UIViewController {
 
         // FIXME: remove a line below after reading the message carefully.
         fatalError("hint: Why using `delegate`? learn MVP architecture! -> https://www.slideshare.net/yudaiyokoyama3/ss-41283302")
+        fatalError("hint: See the architecture of this project on the GitHub repository → https://github.com/takasek/MokuMokuNotes_iOS/#architecture")
         presenter.delegate = self
 
         presenter.getNotes()
