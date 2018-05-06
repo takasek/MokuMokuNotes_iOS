@@ -15,3 +15,9 @@ Androidエンジニア向けに作った、cloneしてXcodeで開いてコンパ
 Simple MVP
 
 [![](http://www.plantuml.com/plantuml/svg/SoWkIImgAStDuVBBBqdroImk2SjCBNVEpoifoi_9IIrIqBLJ0Ca45AKMf-QL00Mi5D9JIq12nHgQN4XI2BL1gGNvnPab-KMLc8eHSY3LBgMvkPKkYIM9mK2HLFogCTsHXwB29JCbA3KvDRCi5M927eZ4wa9CVyACGwZ4OPf3QbuACB00)](http://www.plantuml.com/plantuml/uml/SoWkIImgAStDuVBBBqdroImk2SjCBNVEpoifoi_9IIrIqBLJ0Ca45AKMf-QL00Mi5D9JIq12nHgQN4XI2BL1gGNvnPab-KMLc8eHSY3LBgMvkPKkYIM9mK2HLFogCTsHXwB29JCbA3KvDRCi5M927eZ4wa9CVyACGwZ4OPf3QbuACB00)
+
+# Author
+
+[takasek](https://twitter.com/takasek/)
+
+Feedbacks(何をやるかわかりづらかったとか、こういうクエストを配置したほうがいいんじゃないかとか) are welcome!
