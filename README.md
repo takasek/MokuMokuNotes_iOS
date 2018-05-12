@@ -24,3 +24,13 @@ Simple MVP
 [takasek](https://twitter.com/takasek/)
 
 Feedbacks(何をやるかわかりづらかったとか、こういうクエストを配置したほうがいいんじゃないかとか) are welcome!
+
+# See also
+
+Introduction in Japanese
+コンパイルエラーやランタイムエラーを直していくだけでiOSアプリの作り方がわかるプロジェクト - Qiita
+https://qiita.com/takasek/items/490370ebc1ffb09f106e
+
+This project is inspired by
+panpanini/MokuMokuNotes_Android: Quest based learning tool for writing a basic Android app
+https://github.com/panpanini/MokuMokuNotes_Android
