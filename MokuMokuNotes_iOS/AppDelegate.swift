@@ -19,10 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         // FIXME: Remove expressions below
         // hint: press Command+/ to let a current line commented out
-        Quest: step by step!
-        - 1. Build the project ( Command+B )
-        - 2. Run the project ( Command+R ) and you must run into a crash
-        - 3. Solve a problem ( `FIXME` comments might tell you what to do. )
+//        Quest: step by step!
+//        - 1. Build the project ( Command+B )
+//        - 2. Run the project ( Command+R ) and you must run into a crash
+//        - 3. Solve a problem ( `FIXME` comments might tell you what to do. )
 
         return true
     }
